@@ -6,6 +6,15 @@
 │  ├─ docs
 │  │  ├─ .vuepress
 │  │  │  └─ config.js
+│  │  ├─ guide
+│  │  │  ├─ README.md
+│  │  │  ├─ guideOne.md
+│  │  │  └─ guideTwo.md
+│  │  ├─ sidebar
+│  │  │  ├─ README.md
+│  │  │  ├─ sidebarOne.md
+│  │  │  └─ sidebarTwo.md
+│  │  ├─ structure.md
 │  │  └─ README.md
 │  ├─ views
 │  ├─ main.js
