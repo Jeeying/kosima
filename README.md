@@ -1,5 +1,10 @@
-# kosima
-## structure
+# KOSIMA
+
+## [Demo](https://jeeying.github.io/kasima/)
+
+***
+
+## Structure
 ```
 ├─ algorithm
 │  ├─ assets
