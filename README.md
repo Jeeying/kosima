@@ -1,7 +1,7 @@
 # KOSIMA
 
 ## Demo
-[Demo](https://jeeying.github.io/kasima/)
+[Demo](https://jeeying.github.io/kosima/)
 
 ## Structure
 ```
