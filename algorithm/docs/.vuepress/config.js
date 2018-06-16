@@ -6,7 +6,7 @@ module.exports = {
     ['link', { rel: 'icon', href: '/logo-kosima.png' }]
   ],
   serviceWorker: true,
-  base: '/<REPO>/',
+  base: '/kasima/',
   // theme: 'vue',
   themeConfig: {
     repo: 'Jeeying/kasima',
