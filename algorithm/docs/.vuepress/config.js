@@ -6,10 +6,10 @@ module.exports = {
     ['link', { rel: 'icon', href: '/logo-kosima.png' }]
   ],
   serviceWorker: true,
-  base: '/kasima/',
+  base: '/kosima/',
   // theme: 'vue',
   themeConfig: {
-    repo: 'Jeeying/kasima',
+    repo: 'Jeeying/kosima',
     editLinks: true,
     docsDir: 'algorithm/docs',
     // docsBranch: 'master',
