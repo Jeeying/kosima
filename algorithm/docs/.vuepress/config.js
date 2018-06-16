@@ -3,7 +3,7 @@ module.exports = {
   title: 'KOSIMA',
   description: 'Just playing around',
   head: [
-    ['link', { rel: 'icon', href: '/logo.png' }]
+    ['link', { rel: 'icon', href: '/logo-kosima.png' }]
   ],
   serviceWorker: true,
   // theme: 'vue',
@@ -11,11 +11,13 @@ module.exports = {
     repo: 'Jeeying/kasima',
     editLinks: true,
     docsDir: 'algorithm/docs',
+    // docsBranch: 'master',
     // navbar: true,
+    // searchMaxSuggestions: 10,
+    lastUpdated: 'Last Updated', // string | boolean
     locales: {
       '/': {
         editLinkText: 'Edit this page on GitHub',
-        lastUpdated: 'Last Updated',
         nav: [
           {
             text: 'Guide',
@@ -39,9 +41,9 @@ module.exports = {
           }
         ],
         sidebar: {
-          '/': genSidebarConfig('/'),
           '/guide/': genSidebarConfig('guide'),
           '/sidebar/': genSidebarConfig('sidebar'),
+          '/':  genSidebarConfig('/'),
         }
       },
     }
